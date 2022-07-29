@@ -1,0 +1,39 @@
+body {
+    background-image: url(money-img.jpg);
+    /* padding: 100px; */
+    margin: 100px;
+}
+
+#container {
+    height: 400px;
+    width: 800px;
+    background-color: rgb(201, 221, 202);
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dados {
+    border: 1px solid black;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#dados h4 {
+    font-size: 24px;
+}
+
+#soma {
+    height: 20px;
+    width: 100px;
+}
+
+#botoes {
+    display: flex;
+    justify-content: space-around;
+}
